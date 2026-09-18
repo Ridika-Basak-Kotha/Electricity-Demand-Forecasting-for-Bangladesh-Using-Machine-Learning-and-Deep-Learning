@@ -1,28 +1,38 @@
 # Python
 __pycache__/
 *.py[cod]
+*.pyo
 
-# Jupyter Notebook
-.ipynb_checkpoints/
-
-# Virtual environments
+# Virtual Environment
 venv/
 env/
 .venv/
 
-# Raw/processed datasets
-data/raw/
-data/processed/
+# Jupyter Notebook
+.ipynb_checkpoints/
 
-# Trained models
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Dataset files
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# Trained model files
 *.pkl
 *.joblib
 *.h5
 *.keras
 
-# Environment/secrets
-.env
-
-# OS files
-.DS_Store
-Thumbs.db
+# Temporary files
+*.tmp
+*.log
