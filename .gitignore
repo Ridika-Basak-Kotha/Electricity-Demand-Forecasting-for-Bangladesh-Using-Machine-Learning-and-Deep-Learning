@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Raw/processed datasets
+data/raw/
+data/processed/
+
+# Trained models
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# Environment/secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
